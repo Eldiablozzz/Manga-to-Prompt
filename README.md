@@ -24,25 +24,29 @@ This application uses **Microsoft Florence-2-Large** for detailed visual descrip
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
+```
+https://github.com/Eldiablozzz/Manga-to-Prompt.git
+```
 
-2. Create a Virtual Environment
+### 2. Create a Virtual Environment
 ```python
 python -m venv venv
 .\venv\Scripts\activate
 ```
-3. Install Torch
+### 3. Install Torch
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 ```
-4. Install Dependencies
+### 4. Install Dependencies
 ```
 pip install -r requirements.txt
 ```
-5. Run the App
+### 5. Run the App
 ```
 python app.py
 ```
 Open Browser: Go to http://127.0.0.1:7860.
+
 Analyze:
 
   Upload images.
