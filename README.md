@@ -26,21 +26,22 @@ This application uses **Microsoft Florence-2-Large** for detailed visual descrip
 ### 1. Clone the Repository
 
 2. Create a Virtual Environment
-
+```python
 python -m venv venv
 .\venv\Scripts\activate
-
+```
 3. Install Torch
-
+```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
-
+```
 4. Install Dependencies
-
+```
 pip install -r requirements.txt
-
+```
 5. Run the App
-
+```
 python app.py
+```
 Open Browser: Go to http://127.0.0.1:7860.
 Analyze:
 
@@ -49,6 +50,4 @@ Analyze:
   Check/Uncheck OCR or Visual Description based on what you need.
 
   Click Analyze Manga.
-```bash
-git clone [https://github.com/YOUR_USERNAME/florence-manga-analyst.git](https://github.com/YOUR_USERNAME/florence-manga-analyst.git)
-cd florence-manga-analyst
+
